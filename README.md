@@ -1,12 +1,10 @@
 # A drone-delivered aid simulation
 A simulation to discover how effective a drone delivered aid system could be in a conflict or disaster
 ## Requirements
-This project runs using python 2.7.16
+This project now runs using python 3.9.1
 
-In order to run the program you will need to install the correct python version, and also the required packages.
-The required packages are found in *requirements.txt*
-
-You also need a browser as the bokeh server uses a browser to display the interactive map to place drone stations
+In order to run the program you will need to install the correct python version (remember to change the path), and also the required packages.
+The required packages are found in *requirements.txt* You will also need to install the two *.whl* files which are included
 
 ## How to set up
 Start by copying all the files contained within this project into a folder on your machine. You then should check you have the correct version of python installed and the required packages as mentioned earlier. To install the packages, you may try opening up the command prompt and typing:-
