@@ -18,9 +18,7 @@ from bokeh.io import output_file, show
 import geopandas as gpd
 from bokeh.plotting import figure, save, gmap, show, curdoc
 from bokeh.models import ColumnDataSource, HoverTool, LogColorMapper, LinearColorMapper, GeoJSONDataSource, GMapOptions, Column
-import pysal as ps
 import numpy as np
-import sys
 from osgeo import osr
 from bokeh.models import GeoJSONDataSource
 from bokeh.palettes import Viridis256 as palette
@@ -554,8 +552,20 @@ def callback(event):
         print(coordList)
         source.data = dict(x=[i[0] for i in coordList], y=[i[1] for i in coordList])
     else:
-        #If the number of stations deployed is max, run drone simulation
-        eventTrigger(coordList)
+        #If the number of stations deployed is max, display message
+        print("Max number of stations reached")
+#
+#-----------------------------------------------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+#-------------------------------This allows you to interact with the drone sim button to start the drone simulation-----------------------
+#-----------------------------------------------------------------------------------------------------------------------------------------
+#
+def callbackSimRun(event):
+    eventTrigger(coordList)
 #
 #-----------------------------------------------------------------------------------------------------------------------------------------
 #-----------------------------------------------------------------------------------------------------------------------------------------
@@ -565,7 +575,7 @@ def callback(event):
 
 #These plot the new stations and the button to run the simulation
 p.on_event(DoubleTap, callback)
-button_widget.on_event(ButtonClick, callback)
+button_widget.on_event(ButtonClick, callbackSimRun)
 
 #This sets the layout of the plot
 layout=Column(p,widgetbox(button_widget))
