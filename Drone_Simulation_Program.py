@@ -416,7 +416,7 @@ def eventTrigger(coordList):
     #This iterates through the clock until the end date is found
     while start_date != end_date:
         start_date = start_date
-        print(datetime.utcfromtimestamp(start_date).strftime('%Y-%m-%d %H:%M'))
+        print(datetime.utcfromtimestamp(start_date).strftime('%Y-%m-%d %H:%M:%S'))
         #This iterates through the conflict file timestamps
         for index, row in conflict_file_loc.iterrows():
             #If the current time is equal to the timestamp, an incident has occurred
