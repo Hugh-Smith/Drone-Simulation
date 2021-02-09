@@ -27,12 +27,11 @@ the browser and the last readout from the console will look like this:-
 
 ## How to use the simulation
 The interactive map is a full map of Syrian population centres (grey), roads and admin boundaries (black) and conflict locations (red dots) gathered from the ACLED database. 
-By double clicking on the map you can place a "drone station" with it's range of coverage shown by a light circle (in this simulation there are 10 stations initialised):-
+By double clicking on the map you can place a "drone station" with it's range of coverage shown by a light circle (in this simulation you can place 10 stations):-
 
 ![alt text](https://i.imgur.com/x3OidzP.png)
 
-Your aim should be to deploy a number of drone stations to active conflict areas in order to cover as many incidents as possible. Once all the stations are deployed, 
-running the simulation via the button or double clicking on the map triggers the simulation to start.
+Your aim should be to deploy the drone stations in range of the active conflict areas in order to cover as many incidents as possible. Once all the stations are deployed, running the simulation via the button or double clicking on the map triggers the simulation to start.
 Drones then deploy from the stations to the incidents as they happen (in this version of simulation there are 101 drones per station), and you can see the live readout of the simulation from the console. 
 
 Once the simulation has finished running, it will output how well your placement of stations has performed.
