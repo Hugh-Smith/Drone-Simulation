@@ -9,8 +9,11 @@ The required packages are found in *requirements.txt*
 You also need a browser as the bokeh server uses a browser to display the interactive map to place drone stations
 
 ## How to set up
-Start by copying all the files contained within this project into a folder on your machine. You then should check you have the correct version of python installed and the required packages
-as mentioned earlier
+Start by copying all the files contained within this project into a folder on your machine. You then should check you have the correct version of python installed and the required packages as mentioned earlier. To install the packages, you may try opening up the command prompt and typing:-
+
+```pip install -r requirements.txt```
+
+But remember to change directory to the folder where you copied the files
 
 Once this is complete, you should be able to run the program by opening up command prompt or anaconda powershell prompt and following these steps:-
 
