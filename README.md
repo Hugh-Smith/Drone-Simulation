@@ -33,6 +33,7 @@ By double clicking on the map you can place a "drone station" with it's range of
 
 Your aim should be to deploy a number of drone stations to active conflict areas in order to cover as many incidents as possible. Once all the stations are deployed, 
 running the simulation via the button or double clicking on the map triggers the simulation to start.
-Drones then deploy from the stations to the incidents as they happen (in this version of simulation there are 101 drones per station), and you can see the live readout
-of the simulation from the console. Once the simulation has finished running, it will output how well your placement of stations has performed.
+Drones then deploy from the stations to the incidents as they happen (in this version of simulation there are 101 drones per station), and you can see the live readout of the simulation from the console. 
+
+Once the simulation has finished running, it will output how well your placement of stations has performed.
 The task you have is to find an ideal placement of drone stations in order to cover as many of the red dots as possible, delivering as much aid as possible.
