@@ -31,7 +31,7 @@ By double clicking on the map you can place a "drone station" with it's range of
 
 ![alt text](https://i.imgur.com/x3OidzP.png)
 
-Your aim should be to deploy the drone stations in range of the active conflict areas in order to cover as many incidents as possible. Once all the stations are deployed, running the simulation via the button or double clicking on the map triggers the simulation to start.
+Your aim should be to deploy the drone stations in range of the active conflict areas in order to cover as many incidents as possible. Once the stations are deployed, you can start the simulation by clicking on the button.
 Drones then deploy from the stations to the incidents as they happen (in this version of simulation there are 101 drones per station), and you can see the live readout of the simulation from the console. 
 
 Once the simulation has finished running, it will output how well your placement of stations has performed.
