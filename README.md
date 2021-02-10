@@ -24,7 +24,7 @@ to install the *.whl* files, then
 to install the packages required
 
 
-Once this is complete, you should be able to run the program by opening up command prompt or anaconda powershell prompt and following these steps:-
+Once this is complete, you should be able to run the program by opening up command prompt and following these steps:-
 
 1. Change directory to the folder where you copied the files (file path given as an example)
 * ```cd "C:/Users/Hugh-PC/Documents/Drone_Simulation"```
