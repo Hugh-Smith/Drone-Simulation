@@ -4,7 +4,7 @@ A simulation to discover how effective a drone delivered aid system could be in 
 This project now runs using python 3.9.1
 
 In order to run the program you will need to install the correct python version (remember to change the path), and also the required packages.
-The required packages are found in *requirements.txt* You will also need to install the two *.whl* files which are included
+The required packages are found in *requirements.txt* You will also need to install the two *.whl* files which are included in the files
 
 ## How to set up
 Start by copying all the files contained within this project into a folder on your machine. You then should check you have the correct version of python installed and the required packages as mentioned earlier. To install the packages, you may try opening up the command prompt and typing:-
@@ -12,6 +12,16 @@ Start by copying all the files contained within this project into a folder on yo
 ```pip install -r requirements.txt```
 
 But remember to change directory to the folder where you copied the files
+
+You should then use:-
+
+```pip install Fiona-1.8.18-cp39-cp39-win_amd64.whl```
+
+and
+
+```pip install GDAL-3.2.1-cp39-cp39-win_amd64.whl```
+
+to install the *.whl* files
 
 Once this is complete, you should be able to run the program by opening up command prompt or anaconda powershell prompt and following these steps:-
 
