@@ -7,7 +7,7 @@ In order to run the program you will need to install the correct python version 
 The required packages are found in *requirements.txt* You will also need to install the two *.whl* files which are included in the files
 
 ## How to set up
-Start by copying all the files contained within this project into a folder on your machine. You then should check you have the correct version of python installed and the required packages as mentioned earlier. To install the packages, you need to open up the command prompt and install in this order:-
+Start by copying all the files contained within this project into a folder on your machine. You then should check you have the correct version of python installed and the required packages as mentioned earlier. To install the packages, you need to open up the command prompt and install in this order (go ![here](https://geoffboeing.com/2014/09/using-geopandas-windows/) if you are having issues as we are using geopandas):-
 
 First remember to change directory to the folder where you copied the files
 
