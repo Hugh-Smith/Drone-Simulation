@@ -7,21 +7,24 @@ In order to run the program you will need to install the correct python version 
 The required packages are found in *requirements.txt* You will also need to install the two *.whl* files which are included in the files
 
 ## How to set up
-Start by copying all the files contained within this project into a folder on your machine. You then should check you have the correct version of python installed and the required packages as mentioned earlier. To install the packages, you may try opening up the command prompt and typing:-
+Start by copying all the files contained within this project into a folder on your machine. You then should check you have the correct version of python installed and the required packages as mentioned earlier. To install the packages, you nned to open up the command prompt and install in this order:-
 
-```pip install -r requirements.txt```
-
-But remember to change directory to the folder where you copied the files
-
-You should then use:-
-
-```pip install Fiona-1.8.18-cp39-cp39-win_amd64.whl```
-
-and
+First remember to change directory to the folder where you copied the files
 
 ```pip install GDAL-3.2.1-cp39-cp39-win_amd64.whl```
 
+and
+
+```pip install Fiona-1.8.18-cp39-cp39-win_amd64.whl```
+
 to install the *.whl* files
+
+then
+
+```pip install -r requirements.txt```
+
+
+to install the packages required
 
 Once this is complete, you should be able to run the program by opening up command prompt or anaconda powershell prompt and following these steps:-
 
