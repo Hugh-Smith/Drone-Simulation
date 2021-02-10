@@ -17,14 +17,12 @@ and
 
 ```pip install Fiona-1.8.18-cp39-cp39-win_amd64.whl```
 
-to install the *.whl* files
-
-then
+to install the *.whl* files, then
 
 ```pip install -r requirements.txt```
 
-
 to install the packages required
+
 
 Once this is complete, you should be able to run the program by opening up command prompt or anaconda powershell prompt and following these steps:-
 
