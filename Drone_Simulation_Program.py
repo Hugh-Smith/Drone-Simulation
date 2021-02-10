@@ -46,11 +46,11 @@ def esriprj2standards(shapeprj_path):
    prj_txt = prj_file.read()
    srs = osr.SpatialReference()
    srs.ImportFromESRI([prj_txt])
-   print 'Shape prj is: %s' % prj_txt
-   print 'WKT is: %s' % srs.ExportToWkt()
-   print 'Proj4 is: %s' % srs.ExportToProj4()
+   print ('Shape prj is: %s' % prj_txt)
+   print ('WKT is: %s' % srs.ExportToWkt)
+   print ('Proj4 is: %s' % srs.ExportToProj4)
    srs.AutoIdentifyEPSG()
-   print 'EPSG is: %s' % srs.GetAuthorityCode(None)
+   print ('EPSG is: %s' % srs.GetAuthorityCode(None))
 #
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------------------------------------------------------------------------------------
