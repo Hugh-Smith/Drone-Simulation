@@ -3,29 +3,30 @@ A simulation to discover how effective a drone delivered aid system could be in 
 ## Requirements
 This project now runs using python 3.9.1
 
-In order to run the program you will need to install the correct python version (remember to change the path), and also the required packages.
+In order to run the program you will need to install the correct python version (remember to change the environment path), and also the required packages.
 The required packages are found in *requirements.txt* You will also need to install the two *.whl* files which are included in the files
 
 ## How to set up
-Start by copying all the files contained within this project into a folder on your machine. You then should check you have the correct version of python installed and the required packages as mentioned earlier. To install the packages, you may try opening up the command prompt and typing:-
+Start by copying all the files contained within this project into a folder on your machine. You then should check you have the correct version of python installed and the required packages as mentioned earlier. To install the packages, you need to open up the command prompt and install in this order (go ![here](https://geoffboeing.com/2014/09/using-geopandas-windows/) if you are having issues as we are using geopandas):-
 
-```pip install -r requirements.txt```
-
-But remember to change directory to the folder where you copied the files
-
-You should then use:-
-
-```pip install Fiona-1.8.18-cp39-cp39-win_amd64.whl```
-
-and
+First remember to change directory to the folder where you copied the files
 
 ```pip install GDAL-3.2.1-cp39-cp39-win_amd64.whl```
 
-to install the *.whl* files
+and
+
+```pip install Fiona-1.8.18-cp39-cp39-win_amd64.whl```
+
+to install the *.whl* files, then
+
+```pip install -r requirements.txt```
+
+to install the packages required
+
 
 Once this is complete, you should be able to run the program by opening up command prompt or anaconda powershell prompt and following these steps:-
 
-1. Change directory to the folder where you copied the files (path given as an example)
+1. Change directory to the folder where you copied the files (file path given as an example)
 * ```cd "C:/Users/Hugh-PC/Documents/Drone_Simulation"```
 2. Run this command to start the program
 * ```bokeh serve Drone_Simulation_Program.py --show```
