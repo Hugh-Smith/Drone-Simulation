@@ -3,6 +3,8 @@ A simulation to discover how effective a drone delivered aid system could be in 
 ## Requirements
 This project now runs using python 3.9.1
 
+This project runs on Windows
+
 In order to run the program you will need to install the correct python version (remember to change the environment path), and also the required packages.
 The required packages are found in *requirements.txt* You will also need to install the two *.whl* files which are included in the files
 
